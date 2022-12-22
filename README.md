@@ -28,3 +28,10 @@
 data-modal-open - на кнопку відкриття модального вікна.
 data-modal-close - на кнопку закриття модального вікна.
 data-modal - на бекдроп модального вікна.
+
+.is-hidden {
+  /* скриваємо вікно */
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
